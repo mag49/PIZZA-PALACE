@@ -5,6 +5,15 @@ header{
     width:100%;
     text-align: center;
     padding: 400px;
-    color:white;
+    color:red;
     font-size:50px;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 80px;
+}
+h3{
+    font-size:60px;
 }
