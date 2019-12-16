@@ -48,11 +48,11 @@ $(document).ready(function () {
 
         newOrder = new Order(pizzaType, pizzaSize, pizzaCrust, pizzaFlavour);
         newTotal = new Total(price, pizzaQty, DeliveryCost);
-        if (pizzaPick===1){
-        alert("Your oder is: " + newOrder.fullOrder() + ". see your total bill");
-        alert("your bill is: " + newTotal.finalTotal() + " Thank you for contacting us");
-        }else{
-            if(pizzaPick===2){
+        if (pizzaPick === 1) {
+            alert("Your oder is: " + newOrder.fullOrder() + ". see your total bill");
+            alert("your bill is: " + newTotal.finalTotal() + " Thank you for contacting us");
+        } else {
+            if (pizzaPick === 2) {
                 prompt("Enter location of pizza delivery");
                 alert("Your order has been received and it will be delivered with transport cost of ksh 300.  see order details");
                 alert("Your oder is: " + newOrder.fullOrder() + ". total amount is");
@@ -62,7 +62,6 @@ $(document).ready(function () {
 
     });
 
- 
+
 
 });
-
