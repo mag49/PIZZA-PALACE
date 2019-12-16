@@ -2,14 +2,16 @@
 ## Pizza Palace
 
 This repository contains code for a basic pizza ordering website .
+
 By Margaret Ngethe.
-Description
+
+## Description
 The website offers the user the free will to make their preffered pizza using predefined ingredients. A user simply chooses the size of the pizza, the crust and flavour(s) , and finally the quantity. Asummary of all ordered items is produced with total charges indicated. The user can choose for delivery by providing their location or not.
 
-Behaviour Driven Development
+## Behaviour Driven Development
 Behavior Driven Development is a way of constructing both non-functional and functional requirements. These requirements are directly converted into code and boosts testing.
 
-Feature
+## Feature
 As a User I want to
 
 Choose the size of pizza I want e.g Small, Medium, Large
@@ -24,24 +26,25 @@ Given the following ingredients with thier respective prices.
 
 
 
-Setup Instructions
+## Setup Instructions
 
-Open terminal and type >>> git clone https://github.com/ibrahnerd7/pizza_hub.git to clone this project.You can also download it manually
-After having a local copy navigate to me folder by >> cd pizza palace
+Open terminal and type >>> git clone https://github.com/mag49/PIZZA-PALACE.git  to clone this project. 
+Navigate to me folder by >> cd pizza palace
 Open the folder in your favourite editor for atom >>atom . for visual studio code >> code .
 To run the website in your browser >> browser-name index.html
 
-Technologies Used
+## Technologies Used
 
-HTML5-Used the box model to provide some responsiveness
-CSS3-Included state of the art styles and a blending color scheme. -Bootstrap4 -For mobile first web design
+HTML5
+Javascript
+CSS3-Included state of the art styles and a blending color scheme. 
+Bootstrap4 -For mobile first web design
 jQuery-For website interactions
-Bootstrap
 
-Contact Information
+## Contact Information
 Email -ciru930@gmail.com
 
-Contribution
+## Contribution
 In case of any issues drop it at https://github.com/mag49/PIZZA-PALACE.git
 Ideas and Contributions are to be pushed by creating a pull request at https://github.com/mag49/PIZZA-PALACE.git
 
