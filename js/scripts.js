@@ -1,12 +1,12 @@
-function Order(type, size, crust, topping) {
+function Order(type, size, crust, flavour) {
     this.type = type;
     this.size = size;
     this.crust = crust;
-    this.topping = topping;
+    this.flavour = flavour;
 }
 
 Order.prototype.fullOrder = function () {
-    return this.type + " with the crust of " + this.crust + " and " + this.topping + " as topping.";
+    return this.type + " with the crust of " + this.crust + " and " + this.flavour + " as flavour.";
 };
 
 function Total(price, quantity, delivery) {
@@ -24,7 +24,7 @@ var sizePrice = [1020, 800, 550]
 var deliverPrices = [0, 300];
 
 $(document).ready(function () {
-    $('form#myForm').submit(function (event) {
+    $('form#thisForm').submit(function (event) {
         event.preventDefault();
         var pizzaType = $('#type').val();
 
@@ -32,7 +32,7 @@ $(document).ready(function () {
 
         var pizzaCrust = $('#crust').val();
 
-        var pizzaTop = $('#top').val();
+        var pizzaFlavour = $('#flavour').val();
 
         var pizzaQty = parseInt($('#qty').val());
 
@@ -46,30 +46,23 @@ $(document).ready(function () {
 
 
 
-        newOrder = new Order(pizzaType, pizzaSize, pizzaCrust, pizzaTop);
+        newOrder = new Order(pizzaType, pizzaSize, pizzaCrust, pizzaFlavour);
         newTotal = new Total(price, pizzaQty, DeliveryCost);
         if (pizzaPick===1){
         alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
-        alert("your bill is: " + newTotal.finalTotal());
+        alert("your bill is: " + newTotal.finalTotal() + "Thank you for contacting us");
         }else{
             if(pizzaPick===2){
-                prompt("Enter where you want your pizza to be delivered");
-                alert("Your order has been received and it will be delivered.  see all order details");
-                alert("Your oder is: " + newOrder.fullOrder() + ". total amount");
-                alert("your bill is: " + newTotal.finalTotal());
+                prompt("Enter location of pizza delivery");
+                alert("Your order has been received and it will be delivered with transport cost of 300.  see price details");
+                alert("Your oder is: " + newOrder.fullOrder() + ". total amount is");
+                alert("your cost is: " + newTotal.finalTotal());
             }
         }
 
     });
 
- $('form#contactForm').submit(function (event) {
-    event.preventDefault();
-    var name = $('#name').val();
-    var pass = $('#email').val();
-    var mess = $('#mess').val();
-    alert("Hallo " + name + " we have received your message. Thank you for contacting us.");
-});
-
+ 
 
 });
 
