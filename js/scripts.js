@@ -20,7 +20,7 @@ Total.prototype.finalTotal = function () {
 };
 
 
-var sizePrice = [1050, 900, 550]
+var sizePrice = [1020, 800, 550]
 var deliverPrices = [0, 300];
 
 $(document).ready(function () {
@@ -54,7 +54,7 @@ $(document).ready(function () {
         }else{
             if(pizzaPick===2){
                 prompt("Enter where you want your pizza to be delivered");
-                alert("Your order has been received and it will be delivered. Continue to see your order details");
+                alert("Your order has been received and it will be delivered.  see all order details");
                 alert("Your oder is: " + newOrder.fullOrder() + ". total amount");
                 alert("your bill is: " + newTotal.finalTotal());
             }
@@ -67,7 +67,7 @@ $(document).ready(function () {
     var name = $('#name').val();
     var pass = $('#email').val();
     var mess = $('#mess').val();
-    alert("Hi " + name + " we have received your message. Thank you for contacting us.");
+    alert("Hallo " + name + " we have received your message. Thank you for contacting us.");
 });
 
 
