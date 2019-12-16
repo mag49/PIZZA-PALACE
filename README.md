@@ -14,32 +14,32 @@ Behavior Driven Development is a way of constructing both non-functional and fun
 ## Feature
 As a User I want to
 
-Choose the size of pizza I want e.g Small, Medium, Large
-Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
-Choose the flavour(s) I want on my pizza.
-Place an order for my Pizza and see the total charge for it.
-Have an option to order as many pizzas as I want.
-Have an option to have the pizza delivered or not. If delivered I want to be alerted how much the delivery charge will be.
-If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
-See a checkout button that when clicked shows the total amount charged for the orders.
-Given the following ingredients with thier respective prices.
+-Choose the size of pizza I want e.g Small, Medium, Large
+-Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
+-Choose the flavour(s) I want on my pizza.
+-Place an order for my Pizza and see the total charge for it.
+-Have an option to order as many pizzas as I want.
+-Have an option to have the pizza delivered or not. If delivered I want to be alerted how much the delivery charge will be.
+-If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
+-See a checkout button that when clicked shows the total amount charged for the orders.
+-Given the following ingredients with thier respective prices.
 
 
 
 ## Setup Instructions
 
-Open terminal and type >>> git clone https://github.com/mag49/PIZZA-PALACE.git  to clone this project. 
-Navigate to me folder by >> cd pizza palace
-Open the folder in your favourite editor for atom >>atom . for visual studio code >> code .
-To run the website in your browser >> browser-name index.html
+-Open terminal and type >>> git clone https://github.com/mag49/PIZZA-PALACE.git  to clone this project. 
+-Navigate to me folder by >> cd pizza palace
+-Open the folder in your favourite editor for atom >>atom . for visual studio code >> code .
+-To run the website in your browser >> browser-name index.html
 
 ## Technologies Used
 
-HTML5
-Javascript
-CSS3-Included state of the art styles and a blending color scheme. 
-Bootstrap4 -For mobile first web design
-jQuery-For website interactions
+1.HTML5
+2.Javascript
+3.CSS3-Included state of the art styles and a blending color scheme. 
+4.Bootstrap4 -For mobile first web design
+5.jQuery-For website interactions
 
 ## Contact Information
 Email -ciru930@gmail.com
